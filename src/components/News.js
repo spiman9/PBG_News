@@ -72,7 +72,7 @@ export class News extends Component {
         
         <div className="container d-flex justify-content-between">
           <button
-            disabled={this.state.page == 1}
+            disabled={this.state.page === 1}
             type="button"
             className="btn btn-outline-success"
             onClick={this.handPreviousClick}
