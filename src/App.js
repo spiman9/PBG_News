@@ -12,7 +12,7 @@ export default class App extends Component {
       <>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home></Home>}></Route>
+            <Route path="" element={<Home></Home>}></Route>
             <Route path="/contact" element={<Contact></Contact>}></Route>
             <Route path="/about" element={<About></About>}></Route>
           </Routes>
