@@ -1,0 +1,13 @@
+.card{
+    min-height: 300px;
+    border: 1px solid black;
+    transition: all linear 0.5s;
+    opacity: 0.8;
+}
+
+.card:hover{
+    transform: rotate(2deg);
+    box-shadow: 20px 20px 20px black;
+    opacity: 1;
+}
+

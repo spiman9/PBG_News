@@ -1,0 +1,12 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.child{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+}
